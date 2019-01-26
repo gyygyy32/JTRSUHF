@@ -1,0 +1,149 @@
+[0113/120922.301:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, http://s1.bdstatic.com/r/www/cache/static/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: http://www.baidu.com/ (726)
+[0113/120922.302:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, http://s1.bdstatic.com/r/www/cache/static/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: http://www.baidu.com/ (726)
+[0113/120922.520:INFO:CONSOLE(4)] "Uncaught ReferenceError: c is not defined", source: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_4644b13.js (4)
+[0113/120923.204:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: http://www.baidu.com/search/error2.html (1)
+[0113/120923.204:INFO:CONSOLE(738)] "Uncaught ReferenceError: initPreload is not defined", source: http://www.baidu.com/ (738)
+[0113/120951.416:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, http://s1.bdstatic.com/r/www/cache/static/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: http://www.baidu.com/ (726)
+[0113/120951.416:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, http://s1.bdstatic.com/r/www/cache/static/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: http://www.baidu.com/ (726)
+[0113/121428.175:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/ (726)
+[0113/121428.182:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/ (726)
+[0113/121428.271:INFO:CONSOLE(179)] "同学，祝贺你喜提彩蛋~
+或许你们还在犹豫是否加入，我会坦诚的告诉你我们超酷；
+在这里大家都用无人车代步，AI音箱不仅播放还可以交互；
+人工智能是发展的核心技术，做自己让未来不只领先几步；
+在这里做自己，欢迎来到百度！
+", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/121428.273:INFO:CONSOLE(179)] "%c百度2019校园招聘简历提交：http://dwz.cn/XpoFdepe （你将有机会直接获得面试资格）", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/121445.359:INFO:CONSOLE(3828)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_PclogoS_8whnvm25&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pcs (3828)
+[0113/121445.359:INFO:CONSOLE(3828)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_PclogoS_8whnvm25&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pcs (3828)
+[0113/121445.363:INFO:CONSOLE(179)] "同学，祝贺你喜提彩蛋~
+或许你们还在犹豫是否加入，我会坦诚的告诉你我们超酷；
+在这里大家都用无人车代步，AI音箱不仅播放还可以交互；
+人工智能是发展的核心技术，做自己让未来不只领先几步；
+在这里做自己，欢迎来到百度！
+", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/121445.364:INFO:CONSOLE(179)] "%c百度2019校园招聘简历提交：http://dwz.cn/XpoFdepe （你将有机会直接获得面试资格）", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/121458.545:INFO:CONSOLE(2)] "喜欢看豆瓣的代码，还是发现了什么bug？不如和我们一起为豆瓣添砖加瓦吧！
+http://jobs.douban.com/#position-zsqd", source: https://img3.doubanio.com/f/shire/f010949d3f23dd7c972ad7cb40b800bf70723c93/js/douban.js (2)
+[0113/121459.009:INFO:CONSOLE(1)] "[Warning]: ad_slot: null is not exist", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.146:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_top_right_large content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.147:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_doublemint content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.148:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_top_right2 content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.181:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_doublemint content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.198:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_download_middle content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.199:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_top_right2 content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.204:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_top_right_large content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.225:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_doublemint content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.235:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_top_right2 content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.237:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_download_middle content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.241:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_top_right_large content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.273:INFO:CONSOLE(1)] "[Warning]: dale_group_topic_new_download_middle content is empty", source: https://img3.doubanio.com/f/adjs/dd37385211bc8deb01376096bfa14d2c0436a98c/ad.release.js (1)
+[0113/121459.648:WARNING:spdy_session.cc(3097)] Received HEADERS for invalid stream 9
+[0113/121459.648:WARNING:spdy_session.cc(3097)] Received HEADERS for invalid stream 11
+[0113/121459.649:WARNING:spdy_session.cc(3097)] Received HEADERS for invalid stream 3
+[0113/121459.649:WARNING:spdy_session.cc(3097)] Received HEADERS for invalid stream 15
+[0113/121459.649:WARNING:spdy_session.cc(3097)] Received HEADERS for invalid stream 13
+[0113/121858.355:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/ (726)
+[0113/121858.355:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/ (726)
+[0113/121858.443:INFO:CONSOLE(179)] "同学，祝贺你喜提彩蛋~
+或许你们还在犹豫是否加入，我会坦诚的告诉你我们超酷；
+在这里大家都用无人车代步，AI音箱不仅播放还可以交互；
+人工智能是发展的核心技术，做自己让未来不只领先几步；
+在这里做自己，欢迎来到百度！
+", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/121858.447:INFO:CONSOLE(179)] "%c百度2019校园招聘简历提交：http://dwz.cn/XpoFdepe （你将有机会直接获得面试资格）", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/122116.509:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/ (726)
+[0113/122116.509:INFO:CONSOLE(726)] "A parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: https://www.baidu.com/ (726)
+[0113/122116.591:INFO:CONSOLE(179)] "同学，祝贺你喜提彩蛋~
+或许你们还在犹豫是否加入，我会坦诚的告诉你我们超酷；
+在这里大家都用无人车代步，AI音箱不仅播放还可以交互；
+人工智能是发展的核心技术，做自己让未来不只领先几步；
+在这里做自己，欢迎来到百度！
+", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/122116.592:INFO:CONSOLE(179)] "%c百度2019校园招聘简历提交：http://dwz.cn/XpoFdepe （你将有机会直接获得面试资格）", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_8b82c51.js (179)
+[0113/122119.660:INFO:CONSOLE(13)] "A parser-blocking, cross site (i.e. different eTLD+1) script, http://news-bos.cdn.bcebos.com/mvideo/pcconf.js?1547353279659, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: http://news.baidu.com/ (13)
+[0113/122119.661:INFO:CONSOLE(13)] "A parser-blocking, cross site (i.e. different eTLD+1) script, http://news-bos.cdn.bcebos.com/mvideo/pcconf.js?1547353279659, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.", source: http://news.baidu.com/ (13)
+[0113/122123.088:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0113/122123.088:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0113/122123.088:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0113/122123.089:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0113/122123.090:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0113/122123.096:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0113/142936.111:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0113/142936.112:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0113/144440.508:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0113/144440.509:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0113/144459.028:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0113/144459.028:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0113/144509.781:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0113/144509.782:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0113/145709.818:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0113/145709.819:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0113/145949.540:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0113/145949.542:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0113/154540.249:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/154545.252:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/154550.256:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/162643.857:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/162648.861:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/171003.936:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/171008.939:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/174853.721:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/174858.726:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/185359.031:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/185404.036:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/195906.256:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/195911.261:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/210404.892:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0113/210409.897:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0114/000436.809:INFO:CONSOLE(71)] "Uncaught SyntaxError: missing ) after argument list", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/IVCurve.html (71)
+[0114/115953.406:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120007.694:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120149.198:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120322.944:INFO:CONSOLE(91)] "Uncaught ReferenceError: spline is not defined", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/IVCurve.html (91)
+[0114/120352.395:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120520.418:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120616.938:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120702.369:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-devtools://devtools/product_registry_impl/product_registry_impl_module.js
+[0114/120702.418:ERROR:CONSOLE(24)] "Empty response arrived for script 'chrome-devtools://devtools/product_registry_impl/product_registry_impl_module.js'", source: chrome-devtools://devtools/shell.js (24)
+[0114/120702.421:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0114/120702.421:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0114/120702.422:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0114/120748.603:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120756.710:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120756.845:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120757.108:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120757.242:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120757.360:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120757.462:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120757.588:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120757.700:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/120928.780:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122056.418:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122057.484:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122057.628:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122118.955:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122137.884:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122501.758:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122502.517:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122502.660:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122506.116:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0114/122524.503:INFO:CONSOLE(10)] "Uncaught Error: Highcharts error #18: www.highcharts.com/errors/18", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (10)
+[0122/145803.325:ERROR:in_progress_cache_impl.cc(192)] Cache is not initialized, cannot RetrieveEntry.
+[0122/145803.326:ERROR:in_progress_cache_impl.cc(176)] Cache is not initialized, cannot AddOrReplaceEntry.
+[0122/145803.326:ERROR:in_progress_cache_impl.cc(192)] Cache is not initialized, cannot RetrieveEntry.
+[0122/145821.969:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-devtools://devtools/product_registry_impl/product_registry_impl_module.js
+[0122/145822.034:ERROR:CONSOLE(24)] "Empty response arrived for script 'chrome-devtools://devtools/product_registry_impl/product_registry_impl_module.js'", source: chrome-devtools://devtools/shell.js (24)
+[0122/145822.041:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145822.043:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145822.045:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145822.466:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145822.592:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145825.943:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145826.567:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145827.665:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/145827.665:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/shell.js (108)
+[0122/220904.371:INFO:CONSOLE(1)] "Uncaught ReferenceError: LoadChart is not defined", source: about:blank (1)
+[0124/201731.545:INFO:CONSOLE(60)] "Error: <rect> attribute width: A negative value is not valid. ("-2")", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (60)
+[0124/201816.203:INFO:CONSOLE(60)] "Error: <rect> attribute width: A negative value is not valid. ("-2")", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (60)
+[0124/201822.765:INFO:CONSOLE(60)] "Error: <rect> attribute width: A negative value is not valid. ("-2")", source: file:///C:/Code/RFID/RSJTRFID/WindowsFormsApp2/WindowsFormsApp2/bin/x86/Debug/IVCurve/JS/highcharts.js?v=1 (60)

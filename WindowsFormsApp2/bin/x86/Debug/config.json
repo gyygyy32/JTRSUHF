@@ -1,0 +1,13 @@
+{
+
+  "Country": "China",
+  "IECDate": "March 2018",
+  "ModuleCellSupplier": "RISEN ENERGYCO.,LTD",
+  "CertificationProvider": "TUV SUD Product service Gmbh",
+  "ISO": "IEC TUV",
+  "OracleSql": "select (DTCR-(15-9*DBMS_RANDOM.value)) CellDate ,DTCR,trunc(PMAX,2) PMAX,trunc(RSVOC,2) RSVOC,trunc(RSVPM,2) RSVPM,trunc(RSIPM,2) RSIPM, trunc(RSISC,2) RSISC,trunc(MODULE_EFF,2) MODULE_EFF,NAME_PLATE from V_RFID_INFO where mycim_rs.P_RFID_INFO.set_lotid('{0}')='{0}'",
+  "ReadTime": "2|4|6|8"
+
+
+
+}

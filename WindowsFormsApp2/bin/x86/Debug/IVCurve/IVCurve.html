@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="IVCurve" style="width: 100%"></div>
+</body>
+</html>
+<script src="JS/highcharts.js?v=1"></script>
+<script src="JS/no-data-to-display.js?v=1"></script>
+<script src="JS/exporting.js?v=1"></script>
+<script type="text/javascript">
+
+    function LoadChart(Isc, Imp, Vmp, Voc, Pmax) {
+        var Idata = [[0, Isc], [Vmp, Imp], [Voc, 0]]
+        var Vdata=[[0,0],[Vmp,Pmax],[Voc,0]]
+        var chart = Highcharts.chart('IVCurve', {
+            chart: {
+                //type: 'spline',
+                //inverted: true
+            },
+            title: {
+                text: 'IV Curve'
+            },
+            subtitle: {
+                text: ''
+            },
+            xAxis: {
+                reversed: false,
+                title: {
+                    enabled: true,
+                    text: 'Voltage(V)'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value;
+                    }
+                },
+                maxPadding: 0.05,
+                showLastLabel: true,
+                
+            },
+            yAxis:[ {
+                title: {
+                    text: 'Current(A)'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value;
+                    }
+                },
+                lineWidth: 2
+            }, {
+                title: {
+                    text: 'Power(V)'
+                },
+                    labels: {
+                        formatter: function () {
+                            return this.value;
+                        }
+                    },
+                    lineWidth: 2, opposite: true}],
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                enabled: false,
+                headerFormat: '<b>{series.name}</b><br/>',
+                pointFormat: '{point.x} km: {point.y}°C'
+            },
+            plotOptions: {
+                spline: {
+                    marker: {
+                        enabled: false,
+                        states: {
+                            hover: {
+                                enabled: false
+                            }
+                        }
+
+                    }
+                },
+                //series: {
+                //    marker: {
+                //        enabled: false
+                //    }
+                //}
+
+            },
+            series: [{
+                name: '',
+                data: Idata, type:'spline',yAxis:0,
+            },
+                { name: '', data: Vdata, type: 'spline', yAxis: 1, }
+            ]
+        });
+    }
+	
+</script>
