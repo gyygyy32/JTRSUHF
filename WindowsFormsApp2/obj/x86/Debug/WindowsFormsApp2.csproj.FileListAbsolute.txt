@@ -102,4 +102,5 @@ C:\Code\RFID\RSJTRFID\WindowsFormsApp2\WindowsFormsApp2\obj\x86\Debug\WindowsFor
 C:\Code\RFID\RSJTRFID\WindowsFormsApp2\WindowsFormsApp2\obj\x86\Debug\RFIDForm.exe
 C:\Code\RFID\RSJTRFID\WindowsFormsApp2\WindowsFormsApp2\obj\x86\Debug\RFIDForm.pdb
 C:\Code\RFID\RSJTRFID\WindowsFormsApp2\WindowsFormsApp2\bin\x86\Debug\MySql.Data.dll
+C:\Code\RFID\RSJTRFID\WindowsFormsApp2\WindowsFormsApp2\obj\x86\Debug\RFIDForm.Form2.resources
 C:\Code\RFID\RSJTRFID\WindowsFormsApp2\WindowsFormsApp2\obj\x86\Debug\WindowsFormsApp2.csprojAssemblyReference.cache

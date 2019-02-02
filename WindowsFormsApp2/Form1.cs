@@ -67,7 +67,7 @@ namespace RFIDForm
             objRFID = new UHFISO18000();
             string res = "";
             objRFID.Open(ref res);
-            Log(res);
+            Log(res,1);
         }
         private bool CheckLicense()
         {
@@ -102,9 +102,32 @@ namespace RFIDForm
             txtProductType.Text = "";
         }
 
-        private void Log(string info)
+        private void Log(string info,int color)
         {
-            txtLog.Text =info+ "\r\n"+txtLog.Text;
+
+            //string txtinfo = System.DateTime.Now.ToString() + " " + info;
+            
+            int nLen =txtLog.TextLength;
+
+            if (nLen != 0)
+            {
+                txtLog.AppendText(Environment.NewLine + System.DateTime.Now.ToString() + " " + info);
+            }
+            else
+            {
+                txtLog.AppendText(System.DateTime.Now.ToString() + " " + info);
+            }
+            txtLog.Select(nLen, txtLog.TextLength - nLen);
+            txtLog.SelectionColor = color==1?System.Drawing.Color.SeaGreen:Color.Tomato;
+
+            //txtLog.Select(txtLog.TextLength, 0);
+            //txtLog.ScrollToCaret();
+
+
+
+            //txtLog.Select(len, txtLog.TextLength - len);
+
+            //txtLog.Text =info+ "\r\n"+txtLog.Text;
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -121,81 +144,106 @@ namespace RFIDForm
         {
             myBrowser.ShowDevTools();
         }
+        // add by xue lei on 2019-2-1
+        private bool CheckModuleInfo(ModuleObj obj)
+        {
+            if (obj.ModuleDate == string.Empty 
+                || obj.ProductType==string.Empty
+                || obj.FF==string.Empty
+                || obj.Imp==string.Empty
+                || obj.Isc==string.Empty
+                || obj.Pmax==string.Empty
+                || obj.Vmp==string.Empty
+                || obj.Voc==string.Empty
+                )
+            {
+                return false;
+            }
+            return true;
+        }
 
         private void txtLot_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            try
             {
-
-                //query module
-                ModuleObj objModule = null ;
-                if (!cbxIsTest.Checked)
-                {
-                    objModule = QueryModuleIndo(txtLot.Text);
-                }
-                else
-                {
-                    objModule = new ModuleObj { ModuleID = txtLot.Text, Pmax = txtPmax.Text, Voc = txtVoc.Text, Isc = txtIsc.Text, Vmp = txtVmp.Text, Imp = txtImp.Text, FF = txtFF.Text, ModuleDate =txtModuleDate.Text, CellDate = txtCellDate.Text, ProductType =txtProductType.Text};
-                }
-                //显示组件信息
-                ShowModuleIndo(objModule);
-
-                //显示曲线
-                //LoadChart(Isc, Imp, Vmp, Voc, Pmax)
-                string script = "LoadChart({0},{1},{2},{3},{4})";
-                script = String.Format(script, objModule.Isc, objModule.Imp, objModule.Vmp, objModule.Voc, objModule.Pmax);
-                //Log(script);
-                myBrowser.ExecuteScriptAsync(script);
-
-                //写标签
-                if (cbxisWrite.Checked == true)
+                if (e.KeyCode == Keys.Enter)
                 {
 
-                    if (objRFID.WriteTagBuff(TagDataFormat.CreateByteArray(objModule)) == true && CheckWrite()==objModule.ModuleID)
+                    //query module
+                    ModuleObj objModule = null;
+                    if (!cbxIsTest.Checked)
                     {
-                        Log(objModule.ModuleID + "烧录成功");
-                        //读取卡关
-                        if (cbxIsRead.Checked)
-                        {
-                            System.Threading.Thread.Sleep(Convert.ToInt32(ddlinternalTime.SelectedValue + "000"));
-                            Log(objModule.ModuleID + "读取成功");
-                        }
-
-                        string wcInfo = "ModuleID:" + objModule.ModuleID + "|"
-                                      + "ModuleDate:" + objModule.ModuleDate + "|"
-                                      + "Imp:" + objModule.Imp + "|"
-                                      + "Isc:" + objModule.Isc + "|"
-                                      + "Voc" + objModule.Voc + "|"
-                                      + "Vmp" + objModule.Vmp + "|"
-                                      + "Pmax" + objModule.Pmax + "|"
-                                      + "ProductType" + objModule.ProductType + "|"
-                                      + "FF" + objModule.FF;
-
-
-
-
-                        //var res =new CRUD().InvokeWebService("http://10.60.3.27/PMSService/DataService.asmx", "RecordRfidInfo", new object[] { objModule.ModuleID, wcInfo });
-                        Type t = assemblyobj.GetType("client.Service", true, true);
-                        object obj = Activator.CreateInstance(t);
-                        System.Reflection.MethodInfo mi = t.GetMethod("RecordRfidInfo");
-                        mi.Invoke(obj, new object[] { objModule.ModuleID, wcInfo });
-
+                        objModule = QueryModuleIndo(txtLot.Text);
                     }
                     else
                     {
-                        Log(objModule.ModuleID + "烧录失败:"+objRFID.rfidConfig.Errormsg);
+                        objModule = new ModuleObj { ModuleID = txtLot.Text, Pmax = txtPmax.Text, Voc = txtVoc.Text, Isc = txtIsc.Text, Vmp = txtVmp.Text, Imp = txtImp.Text, FF = txtFF.Text, ModuleDate = txtModuleDate.Text, CellDate = txtCellDate.Text, ProductType = txtProductType.Text };
                     }
+                    //显示组件信息
+                    ShowModuleIndo(objModule);
 
-                   
-                    
+                    //显示曲线
+                    //LoadChart(Isc, Imp, Vmp, Voc, Pmax)
+                    string script = "LoadChart({0},{1},{2},{3},{4})";
+                    script = String.Format(script, objModule.Isc, objModule.Imp, objModule.Vmp, objModule.Voc, objModule.Pmax);
+                    //Log(script);
+                    myBrowser.ExecuteScriptAsync(script);
+
+                    //写标签
+                    if (cbxisWrite.Checked == true)
+                    {
+                        //检查组件信息是否完整
+                        if (!CheckModuleInfo(objModule))
+                        {
+                            Log(objModule.ModuleID + "烧录失败:" + "组件信息不全", 0);
+                            txtLot.Text = "";
+                            return;
+                        }
+
+                        if (objRFID.WriteTagBuff(TagDataFormat.CreateByteArray(objModule)) == true && CheckWrite() == objModule.ModuleID)
+                        {
+                            Log(objModule.ModuleID + "烧录成功",1);
+                            //读取卡关
+                            if (cbxIsRead.Checked)
+                            {
+                                System.Threading.Thread.Sleep(Convert.ToInt32(ddlinternalTime.SelectedValue + "000"));
+                                Log(objModule.ModuleID + "读取成功",1);
+                            }
+
+                            string wcInfo = "ModuleID:" + objModule.ModuleID + "|"
+                                          + "ModuleDate:" + objModule.ModuleDate + "|"
+                                          + "Imp:" + objModule.Imp + "|"
+                                          + "Isc:" + objModule.Isc + "|"
+                                          + "Voc" + objModule.Voc + "|"
+                                          + "Vmp" + objModule.Vmp + "|"
+                                          + "Pmax" + objModule.Pmax + "|"
+                                          + "ProductType" + objModule.ProductType + "|"
+                                          + "FF" + objModule.FF;
+                            //var res =new CRUD().InvokeWebService("http://10.60.3.27/PMSService/DataService.asmx", "RecordRfidInfo", new object[] { objModule.ModuleID, wcInfo });
+                            Type t = assemblyobj.GetType("client.Service", true, true);
+                            object obj = Activator.CreateInstance(t);
+                            System.Reflection.MethodInfo mi = t.GetMethod("RecordRfidInfo");
+                            mi.Invoke(obj, new object[] { objModule.ModuleID, wcInfo });
+                        }
+                        else
+                        {
+                            Log(objModule.ModuleID + "烧录失败:" + objRFID.rfidConfig.Errormsg,0);
+                        }
+                    }
+                    txtLot.Text = "";
+
                 }
+            }
+            catch (Exception ex)
+            {
+                Log("烧录失败:" + ex.Message,0);
                 txtLot.Text = "";
-               
             }
         }
         #region 读取标签
         private string CheckWrite()
         {
+            //throw new Exception();
             string res = "";
             if (!objRFID.ReadTagID())
             {
@@ -249,7 +297,7 @@ namespace RFIDForm
         {
             return new CRUD().QueryOracle(lot);
         }
-        public void ShowModuleIndo(ModuleObj obj)
+       public void ShowModuleIndo(ModuleObj obj)
         {
             var json = new Jsonhelp();
             var path = AppDomain.CurrentDomain.BaseDirectory + "config.json";
@@ -277,7 +325,7 @@ namespace RFIDForm
                 //WriteLog(lrtxtLog, "没有发现标签！", 1);
                 //
                 //
-                Log("没有发现标签！");
+                Log("没有发现标签！",0);
                 return;
             }
             else
@@ -289,16 +337,16 @@ namespace RFIDForm
                 switch (ec)
                 {
                     case ErrorCode.CanNotFindTag:
-                        Log("无法找到标签，请重试！");                       
+                        Log("无法找到标签，请重试！",0);                       
                         break;
                     case ErrorCode.OtherException:                                             
-                        Log("其他异常，请重试");
+                        Log("其他异常，请重试",0);
                         break;
                     case ErrorCode.ReadFail:                                           
-                        Log("读取失败，请重试！");
+                        Log("读取失败，请重试！",0);
                         break;
                     case ErrorCode.TagHasNoData:
-                        Log("空标签！");                      
+                        Log("空标签！",0);                      
                         break;
                     case ErrorCode.ReadSuccessful:
                     
@@ -316,7 +364,7 @@ namespace RFIDForm
                         //Log(script);
                         myBrowser.ExecuteScriptAsync(script);
 
-                        Log(objModule.ModuleID + "读取成功");
+                        Log(objModule.ModuleID + "读取成功",1);
 
                         //ShowModuleInfo(true);
                         ////add by xue lei 计算ff
@@ -398,6 +446,25 @@ namespace RFIDForm
                 MessageBox.Show(ex.Message);
                 return null;
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Log("ng", 0);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Log("ok", 1);
+        }
+
+        private void txtLog_TextChanged(object sender, EventArgs e)
+        {
+            // set the current caret position to the end
+            txtLog.SelectionStart = txtLog.Text.Length;
+            // scroll it automatically
+            //txtLog.ScrollToCaret();
+            txtLog.ScrollToCaret();
         }
     }
 }
